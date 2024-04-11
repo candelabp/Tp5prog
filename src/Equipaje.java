@@ -1,13 +1,12 @@
 public class Equipaje {
-   private double peso;
-   private String tipo;
-  private  Viajero guarda[];
-  //Constructores
+    //atributos
+    private double peso;
+    private String tipo;
+    private Viajero guarda[];
 
-
+    //Constructores
     public Equipaje() {
     }
-
     public Equipaje(double peso, String tipo, Viajero[] guarda) {
         this.peso = peso;
         this.tipo = tipo;
@@ -15,7 +14,6 @@ public class Equipaje {
     }
 
     //get y set
-
     public double getPeso() {
         return peso;
     }

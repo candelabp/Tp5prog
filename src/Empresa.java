@@ -1,15 +1,16 @@
 public class Empresa {
+    //atributos
     public String rSocial;
     Trabajador empleado[];
-//constructores
+
+    //constructores
     public Empresa(String rSocial, Trabajador[] empleado) {
         this.rSocial = rSocial;
         this.empleado = empleado;
     }
     public Empresa(){}
+
     //getter y setter
-
-
     public String getrSocial() {
         return rSocial;
     }
